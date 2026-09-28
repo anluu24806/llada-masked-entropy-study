@@ -1,0 +1,14 @@
+.runtime/
+.cache/
+runs/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+.env
+*.token
+desktop.ini
+.DS_Store
+
+# Private scientific inputs must not be published.
+/data/existing_discovery/

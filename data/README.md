@@ -1,0 +1,1 @@
+Private existing-discovery inputs are intentionally excluded from Git. For that optional mode, place public.jsonl, gold.jsonl and PROVENANCE.json in data/existing_discovery/ on the server through a private transfer. GSM8K needs no manual data transfer.

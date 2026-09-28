@@ -1,0 +1,136 @@
+{
+  "distribution": "PUBLIC_CODE_ONLY",
+  "excluded": [
+    "private prompts",
+    "gold labels",
+    "raw outputs",
+    "credentials",
+    "model weights"
+  ],
+  "files": {
+    ".gitattributes": {
+      "sha256": "b146cfb7de860b024dbf86016e7dc634ca2a0d4800feb459dd5fd682f47414f5",
+      "bytes": 78
+    },
+    ".gitignore": {
+      "sha256": "f0d6fb577456c57e18e83c3fb44ac98bc63e999be921e9e453e762a3ed87f685",
+      "bytes": 177
+    },
+    "BUILD_VERIFICATION.json": {
+      "sha256": "a1ed350e73d43eb3882ae8339abb7abef8e517aadc7ab0e0f1002ca2f859ddcc",
+      "bytes": 1570
+    },
+    "PROTOCOL.md": {
+      "sha256": "a84e183e669218608cd43c36421ef9c43127fb8219d82b4aac6e25e96089e84c",
+      "bytes": 7775
+    },
+    "README.md": {
+      "sha256": "4014c924060cf4bea5d376a0b90d738df3943a28c7a59341c3aacb0aa3827d40",
+      "bytes": 7507
+    },
+    "RESULT_FILE_MAP.md": {
+      "sha256": "d215810ba6c609cda587bbdb698567ec3c782e0325f048b34b48ec5357ae7d2c",
+      "bytes": 2928
+    },
+    "SERVER_JOB_DRAFT.md": {
+      "sha256": "d4ee556b55973647a677ba8e854875a32be831c568a52ea2170d99bbce6603eb",
+      "bytes": 3441
+    },
+    "config.json": {
+      "sha256": "af6f61145234a3bb6c6d0f64389fc80aa23465715a9344674fc8344aa0d32b96",
+      "bytes": 1153
+    },
+    "data/README.md": {
+      "sha256": "de694a7e2eaedb1f7943634e33eed559813d50fcb05115e50920394ea6e774a1",
+      "bytes": 254
+    },
+    "llada_study/__init__.py": {
+      "sha256": "6d7d3ba8290cc80ef27108b4608c4b8747904e0523a9f15bc37ced9b8db96aba",
+      "bytes": 73
+    },
+    "llada_study/analysis.py": {
+      "sha256": "cac275de1166a0f7cb4ae3bf7f997cacbbbe43f6e10963ae9252df2401efe305",
+      "bytes": 26197
+    },
+    "llada_study/common.py": {
+      "sha256": "51c24702ba2d8d1b22fe219698843484860b70d7dbd1bd2acd1593ece0f23b3f",
+      "bytes": 3332
+    },
+    "llada_study/dataset.py": {
+      "sha256": "6707ea53a1b92c90d7e58edebcf23a6ff37478e90074e4272024c12d484a2137",
+      "bytes": 17608
+    },
+    "llada_study/environment_check.py": {
+      "sha256": "d80e092f16bcdc5b0b779d252cba5764c776e0c33f4c4ce74434531463ae1862",
+      "bytes": 973
+    },
+    "llada_study/finalize.py": {
+      "sha256": "2465938d658cb0edb073c7c904980b060014daab46a3186cfc06929c8d14b3cc",
+      "bytes": 15460
+    },
+    "llada_study/measurement.py": {
+      "sha256": "dc74ea17d628fdd9290548866daa909c38c9f252a7fd837b3854d1dbaa91016a",
+      "bytes": 6649
+    },
+    "llada_study/native.py": {
+      "sha256": "b663c9634e69a08f4fdfc52556ef31a68e40b4cd6b0fa3c1a4f69fb52032df01",
+      "bytes": 13151
+    },
+    "llada_study/prepare.py": {
+      "sha256": "65df3eaacc879b0a2502f7a36acc9abe2034f06da74829acd3259b2a622c196a",
+      "bytes": 6081
+    },
+    "llada_study/run.py": {
+      "sha256": "15d9dd1658a589a47d2072c0d67a626a4e740a8ffaa72b8493ae885793be0a62",
+      "bytes": 4961
+    },
+    "llada_study/worker.py": {
+      "sha256": "aa10da65a9c34efb7df6cc720de2ca83ea9e033e85386fc21151e12923e79eb4",
+      "bytes": 6620
+    },
+    "model_pin.json": {
+      "sha256": "9dfa052650d2a993a1bd7f7ea650b2b2eb969a50a545cea3c75b3f63f62e0df6",
+      "bytes": 4920
+    },
+    "requirements.txt": {
+      "sha256": "79d00cf78e1e08a2aa696a36ce8b2c663d7e8854d24fe52507fb93ec036e25ac",
+      "bytes": 238
+    },
+    "run_all.sh": {
+      "sha256": "f7dfc40382494361334588b71d34f0465ea62e273cf23382fed1c699fc352b1b",
+      "bytes": 2630
+    },
+    "tests/test_analysis.py": {
+      "sha256": "83e2ad0f28f169550f8b7e73f19204cb412784d6525b58174b7f64201aeddc3d",
+      "bytes": 13131
+    },
+    "tests/test_dataset.py": {
+      "sha256": "27e3f6964c24624e2796e907be98074d9f33005e35f425d1f48867884698f0c3",
+      "bytes": 21170
+    },
+    "tests/test_measurement.py": {
+      "sha256": "71c6f4a57d1af3d82ef3b007205e258bd8c395670c595b40cc46166cdaf652a5",
+      "bytes": 4587
+    },
+    "tests/test_native.py": {
+      "sha256": "e6d22dad40512d77e2269b5fbd68a0f13b5449ac55a90f3e1d76a6232a0a59ea",
+      "bytes": 7107
+    },
+    "tests/test_pipeline.py": {
+      "sha256": "94658b5471d35b73eaf621ec7cd71d1d74b456163c9f6c70e8104f4e73a42e81",
+      "bytes": 6259
+    },
+    "vendor/MINIFORGE_INSTALLER_SHA256.txt": {
+      "sha256": "57be9d8415cd75326aff2a518bd6eda8d3a87ef28747256d51a8b77a47cc0a14",
+      "bytes": 104
+    },
+    "vendor/UPSTREAM_NOTICE.md": {
+      "sha256": "236684b2d15ea7dd0f1d27951e77d9683b704d69b2842442ba698b95fd7eaf05",
+      "bytes": 804
+    },
+    "vendor/generate.py": {
+      "sha256": "d4d2d3c015511e63fe9237cd3197346148fb0c795b6c89e0b5ef4846be25252e",
+      "bytes": 12091
+    }
+  }
+}

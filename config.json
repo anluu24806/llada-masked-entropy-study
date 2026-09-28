@@ -1,0 +1,37 @@
+{
+  "study": "LLADA_MASKED_ENTROPY_16_V1",
+  "replicates": 16,
+  "master_seed": 20260929,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260929,
+  "native": {
+    "steps": 128,
+    "gen_length": 256,
+    "block_length": 256,
+    "temperature": 1,
+    "cfg_scale": 0,
+    "remasking": "low_confidence"
+  },
+  "categories": [
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "tie_flip",
+    "tie_same"
+  ],
+  "entropy": "FP32 raw-model softmax entropy divided by log(vocabulary_size)",
+  "entropy_tolerance": 0,
+  "primary_feature": "t2_equal_step_mean",
+  "primary_scope": "all generated positions masked at both adjacent predictions; full fixed canvas",
+  "primary_test": "two-sided within-question t2/correctness association; question-cluster bootstrap",
+  "output_file_limit_bytes": 9000000,
+  "hard_user_file_limit_bytes": 10000000,
+  "gsm8k": {
+    "repository": "openai/gsm8k",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "filename": "main/test-00000-of-00001.parquet",
+    "expected_questions": 1319,
+    "prompt_suffix": "\nSolve the problem. You may show your reasoning. End with exactly one line: Answer: <number>"
+  }
+}
